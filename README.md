@@ -1,2 +1,3 @@
-# Practice
-A collection of challenges, quizzes and mini-projects.
+# guide
+
+A collection of resources & notes for learning web development.
