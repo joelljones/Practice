@@ -24,5 +24,5 @@ A collection of resources & notes for learning web development.
 - [Udacity](https://udacity.com)
 - [Treehouse](https://teamtreehouse.com)
 - [MDN](https://developer.mozilla.org)
-- [W3Schools](https://www.w3schools.com)
+- [W3Schools](https://w3schools.com)
 - [Stack Overflow](https://stackoverflow.com)

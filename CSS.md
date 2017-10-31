@@ -16,25 +16,27 @@ summary...
 
 # CSS Setup
 
-1. _CSS_, or Cascading Style Sheets, is a language that web developers use to _style_ the HTML content on a web page.
+0. _CSS_, or Cascading Style Sheets, is a language that web developers use to _style_ the HTML content on a web page.
 
-2. HTML and CSS are kept in separate files to keep code maintainable and readable, as well as keep structure separate from styling.
+0. HTML and CSS are kept in separate files to keep code maintainable and readable, as well as keep structure separate from styling.
 
-3. The `<style>` element allows you to write CSS code within the `<head>` element of an HTML file.
+0. The `<style>` element allows you to write CSS code within the `<head>` element of an HTML file.
 
-4. To style an HTML element, you can add the style attribute directly to the opening tag using _inline styles_:  
+0. To style an HTML element, you can add the style attribute directly to the opening tag using _inline styles_:  
 
   `<p style="color: red;">This is an inline style</p>`
 
-5. A CSS stylesheet can be linked to an HTML file using the `<link>` element, which requires three attributes:
+0. A CSS stylesheet can be linked to an HTML file using the `<link>` element, which requires three attributes:
 
   - `href` - set equal to the path of the CSS file
   - `type` - set equal to `text/css`
   - `rel` - set equal to `stylesheet`
 
-  `<link href="style.css" type="text/css" rel="stylesheet">`
+  ```html
+  <link href="style.css" type="text/css" rel="stylesheet">
+  ```
 
-6. Comments are written in CSS using the following syntax: `/* comment */`.
+0. Comments are written in CSS using the following syntax: `/* comment */`.
 
 
 # CSS Selectors
@@ -45,7 +47,9 @@ summary...
 
 - Multiple CSS classes can be applied to one HTML element:
 
-  `<h1 class="green bold"> ... </h1>`
+  ```html
+  <h1 class="green bold"> ... </h1>
+  ```
 
 - Classes can be reusable, while IDs can only be used once.
 
@@ -53,26 +57,36 @@ summary...
 
 - Multiple selectors can be chained together to select an element. This raises the specificity, but can be necessary.
 
-  `h1.special {`
+  ```css
+  h1.special {
+  ```
 
 - Nested elements can be selected by separating selectors with a space:
 
-  `.main p {`
+  ```css
+  .main p {
+  ```
 
 - The `!important` flag will override any style, however it should almost never be used, as it is extremely difficult to override.
 
-  `color: blue !important;`
+  ```css
+  color: blue !important;
+  ```
 
 - Multiple unrelated selectors can receive the same styles by separating the selector names with commas:
 
-  `h1, .menu {`
+  ```css
+  h1, .menu {
+  ```
 
 
 # CSS Visual Rules
 
 - CSS declarations are structured into _property_ and _value_ pairs:
 
-  `color: blue;`
+  ```css
+  color: blue;
+  ```
 
 - The `font-family` property defines the typeface of an element.
 

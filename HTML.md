@@ -58,9 +58,11 @@ summary...
 
 0. Images (`<img>`) and videos (`<video>`) can be added by linking to an existing source:
 
-  `<img src="image-location.com" />`  
+  ```html
+  <img src="image-location.com" />
 
-  `<video src="myVideo.mp4" width="320" height="240" controls> Video not supported </video>`
+  <video src="myVideo.mp4" width="320" height="240" controls> Video not supported </video>
+  ```
 
 0. Anchor tags (`<a>`) are used to link to internal pages, external pages or content on the same page (see next):
 
