@@ -8,7 +8,6 @@ A collection of resources & notes for learning web development.
 - [Git](Git.md)
 - [HTML](HTML.md)
 - [CSS](CSS.md)
-  - [Flexbox](Flexbox.md)
   - [Bootstrap](Bootstrap.md)
 - [JavaScript](JavaScript.md)
   - [jQuery](jQuery.md)
