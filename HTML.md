@@ -9,7 +9,8 @@ summary...
 
 ### Resources
 
-- []()
+- [World Wide Web Consortium or W3C](https://w3.org/Consortium)
+- [HTML tag/element reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 
 ---
 
