@@ -8,8 +8,11 @@ jQuery, a popular framework for using JavaScript and selectors to make interacti
 
 ### Resources
 
-- [jQuery](https://api.jquery.com)
+- [jQuery](https://jquery.com)
+- [jQuery api](https://api.jquery.com)
 - [jQuery alternative](http://jqapi.com)
+- [W3Schools](https://w3schools.com/jquery)
+- [GitHub](https://github.com/jquery/jquery)
 
 ---
 

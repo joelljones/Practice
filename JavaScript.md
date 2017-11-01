@@ -9,6 +9,7 @@ JavaScript, a popular programming language used to make websites interactive, is
 ### Resources
 
 - [MDN JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [W3Schools](https://w3schools.com/js)
 
 ---
 

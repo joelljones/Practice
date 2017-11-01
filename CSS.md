@@ -30,6 +30,8 @@ summary...
 ### Resources
 
 - [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [W3Schools](https://w3schools.com/css)
+- [W3C](https://www.w3.org/Style/CSS)
 - [Reference of web safe fonts](https://cssfontstack.com)
 - [Chrome DevTools](https://developer.chrome.com/devtools)
 - [Border styles](https://developer.mozilla.org/en-US/docs/Web/CSS/border-style#Values)

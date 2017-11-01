@@ -9,6 +9,9 @@ Bootstrap CSS library, a popular resource that enables you to quickly and effici
 ### Resources
 
 - [Bootstrap](https://getbootstrap.com)
+- [GitHub](https://github.com/twbs/bootstrap)
+- [Bootstrap CDN](https://www.bootstrapcdn.com)
+- [W3Schools](https://w3schools.com/bootstrap)
 
 ---
 

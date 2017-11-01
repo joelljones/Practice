@@ -5,7 +5,7 @@ A collection of resources & notes for learning web development.
 ## Table of Contents
 
 - [Introduction to Computer Science](Intro-to-CS.md)
-- [Git](Git.md)
+- [Command Line and Git](Command-Line-and-Git.md)
 - [HTML](HTML.md)
 - [CSS](CSS.md)
   - [Bootstrap](Bootstrap.md)

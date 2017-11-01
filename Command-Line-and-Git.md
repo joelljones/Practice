@@ -1,4 +1,4 @@
-# Git
+# Command Line and Git
 
 summary...
 
@@ -9,7 +9,10 @@ summary...
 
 ### Resources
 
-- []()
+- [Wikipedia](https://en.wikipedia.org/wiki/Git)
+- [Git](https://git-scm.com)
+- [GitHub](https://github.com)
+- [Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)
 
 ---
 
