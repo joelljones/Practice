@@ -21,6 +21,10 @@ summary...
   - [Sizing Elements](#sizing-elements)
   - [Media Queries](#media-queries)
   - [Browser Compatibility](#browser-compatibility)
+- [Icons, Assets and Accessibility](#icons-assets-and-accessibility)
+  - [Font Awesome](#font-awesome)
+  - [Managing Assets and Icons](#managing-assets-and-icons)
+  - [Accessibility and ARIA](#accessibility-and-aria)
 
 ### Resources
 
@@ -490,3 +494,65 @@ transition: width 750ms ease-in 200ms,
 0. [Vendor prefixes](https://developer.mozilla.org/en-US/docs/Glossary/Vendor_Prefix) increase the browser compatibility of CSS features. This is because they indicate to browsers how the rule should be specifically implemented.
 
 0. Polyfills are libraries that increase the browser compatibility of a website. They allow developers to write alternative CSS rules based on whether or not a browser supports a certain feature.
+
+
+# Icons, Assets and Accessibility
+
+## Font Awesome
+
+0. The Font Awesome library can be linked to an HTML document from a remote CDN or a local CSS file.
+
+0. Font Awesome icons are added to a website by setting an `<i>` tag's classes to `fa` and `fa-icon-name`, where `fa-icon-name` refers to the icon-specific class name.
+
+0. Font Awesome icons can be resized using `fa-lg`, `fa-2x`, `fa-3x`, `fa-4x`, or `fa-5x`.
+
+Here are a few best practices to help you anticipate and plan for user misunderstanding:
+
+  0. Research the icon in question. When in doubt, check to see if the icon shows up on other popular sites.
+  0. Use a word or two next to the icon for additional context.
+
+
+## Managing Assets and Icons
+
+_favicon_ - a small image displayed in the tab or browser bar containing the name of the page being viewed
+
+Three types of image files:
+
+0. JPEG - a highly compressible file type that is preferred for images with significant detail
+
+0. PNG - a file type that is lossless (meaning that full quality is maintained) - generally preferred for images with less detail such as logos
+
+0. SVG - useful for high resolution screens, scalable vector graphics (SVG) will change size (scale) for various screen sizes; SVGs also contain roughly 50% less data than their JPEG or PNG equivalents allowing web pages to load more quickly; they are becoming widely used for simple images such as icons and logos
+
+### Making favicons
+
+To convert an existing image to a favicon, you can use an online conversion tool such as [Favicon-Generator](http://www.favicon-generator.org).
+
+### Editing Images
+
+A best practice is to ensure that images are sized properly before adding them to an HTML file.
+
+Adobe Photoshop is a commonly used and useful tool for all sorts of photo editing tasks, but requires a monthly subscription fee. A free and industry-accepted alternative is, [Pixlr](https://pixlr.com/editor).
+
+The web standard for JPEG files is 85%.
+
+### Converting to Scalable Vector Format
+
+To convert an image to SVG, you can use an online conversion tool such as [online-convert](http://image.online-convert.com/convert-to-svg).
+
+
+## Accessibility and ARIA
+
+Using ARIA roles and properties, `alt` attributes, and semantic elements in your HTML is a simple way to make your website accessible to visually-impaired Internet users.
+
+0. Using semantic HTML elements whenever possible (such as `<header>` instead of `<div id="header">`) will allow screen reader users to navigate your website more efficiently.
+
+0. The `role` attribute is used to communicate information about the role of specific elements.
+
+  - [list of acceptable ARIA roles](https://www.w3.org/TR/html-aria/#allowed-aria-roles-states-and-properties)
+
+0. `role="presentation"` allows a screen reader to skip markup elements that don't directly contain useful information.
+
+0. `aria-label` and other ARIA properties can be used to help users perceive information that is communicated visually but not through text.
+
+0. The `alt` attribute should be added to every image element (and all other elements that support it) instead of `aria-label`. When used, its value should be a useful description of the image.
