@@ -1,6 +1,16 @@
 # CSS
 
-summary...
+__Cascading Style Sheets (CSS)__ is a style sheet language used for describing the presentation of a document written in a markup language. Although most often used to set the visual style of web pages and user interfaces written in HTML and XHTML, the language can be applied to any XML document.
+
+CSS is designed primarily to enable the separation of presentation and content, including aspects such as the layout, colors, and fonts. This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple HTML pages to share formatting by specifying the relevant CSS in a separate .css file, and reduce complexity and repetition in the structural content.
+
+Separation of formatting and content makes it possible to present the same markup page in different styles for different rendering methods, such as on-screen, in print, by voice (via speech-based browser or screen reader), and on Braille-based tactile devices. It can also display the web page differently depending on the screen size or viewing device. Readers can also specify a different style sheet, such as a CSS file stored on their own computer, to override the one the author specified.
+
+Changes to the graphic design of a document (or hundreds of documents) can be applied quickly and easily, by editing a few lines in the CSS file they use, rather than by changing markup in the documents.
+
+The CSS specification describes a priority scheme to determine which style rules apply if more than one rule matches against a particular element. In this so-called cascade, priorities (or weights) are calculated and assigned to rules, so that the results are predictable.
+
+The CSS specifications are maintained by the World Wide Web Consortium (W3C).
 
 ## Table of Contents
 
@@ -45,45 +55,45 @@ summary...
 - [Modernizr](https://modernizr.com)
 - [Paletton](http://paletton.com)
 - [Adobe Color CC](http://color.adobe.com)
-- [Color blindness](http://www.colourblindawareness.org/colour-blindness)
+- [Color blindness](http://colourblindawareness.org/colour-blindness)
 - [Color Laboratory](http://colorlab.wickline.org/colorblind/colorlab)
 - [Google Fonts](https://fonts.google.com)
-- [Font Squirrel](https://www.fontsquirrel.com)
+- [Font Squirrel](https://fontsquirrel.com)
 - [Adobe Typekit](https://typekit.com)
-- [dafont](http://www.dafont.com)
-- [Typewolf](https://www.typewolf.com/google-fonts)
-- [Google Font Combinations](https://www.behance.net/gallery/35768979/Typography-Google-Fonts-Combinations)
+- [dafont](http://dafont.com)
+- [Typewolf](https://typewolf.com/google-fonts)
+- [Google Font Combinations](https://behance.net/gallery/35768979/Typography-Google-Fonts-Combinations)
 - [Hand-picked Tales from Æsop's Fables with Hand-picked Type from Google Fonts](https://femmebot.github.io/google-type)
 - [Animated properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties)
 - [Transition timing function](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function)
 - [Transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
 - [Font Awesome](http://fontawesome.io)
 - [Font Awesome cheat sheet](http://fontawesome.io/cheatsheet)
-- [Favicon-Generator](http://www.favicon-generator.org)
+- [Favicon-Generator](http://favicon-generator.org)
 - [Pixlr](https://pixlr.com/editor)
 - [Online-convert](http://image.online-convert.com/convert-to-svg)
 - [Web Accessibility Initiative](https://en.wikipedia.org/wiki/Web_Accessibility_Initiative)
 - [ARIA](https://en.wikipedia.org/wiki/WAI-ARIA)
 - [Semantic HTML elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
-- [acceptable ARIA roles](https://www.w3.org/TR/html-aria/#allowed-aria-roles-states-and-properties)
+- [acceptable ARIA roles](https://w3.org/TR/html-aria/#allowed-aria-roles-states-and-properties)
 - [ARIA presentation role](https://w3c.github.io/using-aria/#presentation)
-- [ARIA properties](https://www.w3.org/TR/wai-aria/states_and_properties)
+- [ARIA properties](https://w3.org/TR/wai-aria/states_and_properties)
 
 ---
 
 # CSS Setup
 
-0. _CSS_, or Cascading Style Sheets, is a language that web developers use to _style_ the HTML content on a web page.
+1. _CSS_, or Cascading Style Sheets, is a language that web developers use to _style_ the HTML content on a web page.
 
-0. HTML and CSS are kept in separate files to keep code maintainable and readable, as well as keep structure separate from styling.
+1. HTML and CSS are kept in separate files to keep code maintainable and readable, as well as keep structure separate from styling.
 
-0. The `<style>` element allows you to write CSS code within the `<head>` element of an HTML file.
+1. The `<style>` element allows you to write CSS code within the `<head>` element of an HTML file.
 
-0. To style an HTML element, you can add the style attribute directly to the opening tag using _inline styles_:  
+1. To style an HTML element, you can add the style attribute directly to the opening tag using _inline styles_:  
 
   `<p style="color: red;">This is an inline style</p>`
 
-0. A CSS stylesheet can be linked to an HTML file using the `<link>` element, which requires three attributes:
+1. A CSS stylesheet can be linked to an HTML file using the `<link>` element, which requires three attributes:
 
   - `href` - set equal to the path of the CSS file
   - `type` - set equal to `text/css`
@@ -93,7 +103,7 @@ summary...
   <link href="style.css" type="text/css" rel="stylesheet">
   ```
 
-0. Comments are written in CSS using the following syntax: `/* comment */`.
+1. Comments are written in CSS using the following syntax: `/* comment */`.
 
 
 # CSS Selectors
@@ -169,48 +179,48 @@ summary...
 
 ## The Box Model
 
-0. The box model comprises a set of properties used to create space around and between HTML elements.
+1. The box model comprises a set of properties used to create space around and between HTML elements.
 
-0. The `height` and `width` of a content area can be set in pixels or percentage.
+1. The `height` and `width` of a content area can be set in pixels or percentage.
 
-0. `border` surrounds the content area and padding of an element. The color, style, and thickness of a border can be set with CSS properties.
+1. `border` surrounds the content area and padding of an element. The color, style, and thickness of a border can be set with CSS properties.
 
-0. `padding` is the space between the content area and the border. It can be set in pixels or percent.
+1. `padding` is the space between the content area and the border. It can be set in pixels or percent.
 
-0. `margin` is the amount of spacing outside of an element's border.
+1. `margin` is the amount of spacing outside of an element's border.
 
-0. Horizontal margins add, so the total space between the borders of adjacent elements is equal to the sum of the right margin of one element and the left margin of the adjacent element.
+1. Horizontal margins add, so the total space between the borders of adjacent elements is equal to the sum of the right margin of one element and the left margin of the adjacent element.
 
-0. Vertical margins collapse, so the space between vertically adjacent elements is equal to the larger margin.
+1. Vertical margins collapse, so the space between vertically adjacent elements is equal to the larger margin.
 
-0. `margin: 0 auto` horizontally centers an element inside of its parent content area, if it has a width.
+1. `margin: 0 auto` horizontally centers an element inside of its parent content area, if it has a width.
 
-0. The `overflow` property can be set to `visible`, `hidden`, or `scroll`, and dictates how HTML will render content that overflows its parent's content area.
+1. The `overflow` property can be set to `visible`, `hidden`, or `scroll`, and dictates how HTML will render content that overflows its parent's content area.
 
 
 ## CSS Display
 
-0. The default positioning of elements is based on the _flow_ of the HTML file.
+1. The default positioning of elements is based on the _flow_ of the HTML file.
 
-0. `display: inline` elements appear next to each other on the same line.
+1. `display: inline` elements appear next to each other on the same line.
 
   - The default display for some tags, such as `<em>`, `<strong>`, and `<a>`.
 
-0. You can position elements to be displayed on their own line using `display: block`.
+1. You can position elements to be displayed on their own line using `display: block`.
 
   - Elements that are block-level by default include all levels of heading elements (`<h1>` through `<h6>`), `<p>`, `<div>` and `<footer>`.
 
-0. `display: inline-block` elements are on the same line as each other and their size can be set.
+1. `display: inline-block` elements are on the same line as each other and their size can be set.
 
-0. The default positioning for any element is `position: static` which means it will appear exactly as it does in the flow of the HTML document.
+1. The default positioning for any element is `position: static` which means it will appear exactly as it does in the flow of the HTML document.
 
-0. Elements with `position: absolute` positioning are removed from the flow of the document and positioned in relation to the parent element. This positioning will override display properties. An element with absolute positioning will scroll.
+1. Elements with `position: absolute` positioning are removed from the flow of the document and positioned in relation to the parent element. This positioning will override display properties. An element with absolute positioning will scroll.
 
-0. Elements with `position: fixed` positioning will not scroll as the page scrolls. This removes the element from the flow of the document.
+1. Elements with `position: fixed` positioning will not scroll as the page scrolls. This removes the element from the flow of the document.
 
-0. Elements with `position: relative` positioning specify the element's distance from where it would have been positioned in the flow of the HTML document.
+1. Elements with `position: relative` positioning specify the element's distance from where it would have been positioned in the flow of the HTML document.
 
-0. Non-static elements can be displayed in front or behind another element using the `z-index` property.
+1. Non-static elements can be displayed in front or behind another element using the `z-index` property.
 
 
 ## Flexbox
@@ -218,11 +228,11 @@ summary...
 A _flex container_ is an element on a page that contains flex items.  
 All direct child elements of a flex container are _flex items_.
 
-0. `display: flex` changes an element to a block-level container with flex items inside of it.
+1. `display: flex` changes an element to a block-level container with flex items inside of it.
 
-0. `display: inline-flex` allows multiple flex containers to appear inline with each other.
+1. `display: inline-flex` allows multiple flex containers to appear inline with each other.
 
-0. `justify-content` is used to space items along the major axis (horizontally).
+1. `justify-content` is used to space items along the major axis (horizontally).
 
   - `flex-start` — all items will be positioned in order starting, from the left of the parent container, with no extra space between or before them.
 
@@ -234,7 +244,7 @@ All direct child elements of a flex container are _flex items_.
 
   - `space-between` — items will be positioned with equal space between them, but no extra space before the first or after the last elements.
 
-0. `align-items` is used to space items along the cross axis (vertically).
+1. `align-items` is used to space items along the cross axis (vertically).
 
   - `flex-start` — all elements will be positioned at the top of the parent container.
 
@@ -246,15 +256,15 @@ All direct child elements of a flex container are _flex items_.
 
   - `stretch` — if possible, the items will stretch from top to bottom of the container (this is the default value; elements with a specified height will not stretch; elements with a minimum height or no height specified will stretch).
 
-0. `flex-grow` is declared on flex items and is used to specify how much space (and in what proportions) flex items absorb along the major axis.
+1. `flex-grow` is declared on flex items and is used to specify how much space (and in what proportions) flex items absorb along the major axis.
 
-0. `flex-shrink` is declared on flex items and is used to specify how much flex items shrink and in what proportions along the major axis.
+1. `flex-shrink` is declared on flex items and is used to specify how much flex items shrink and in what proportions along the major axis.
 
-0. `flex-basis` is used to specify the initial size of an element styled with `flex-grow` and/or `flex-shrink`.
+1. `flex-basis` is used to specify the initial size of an element styled with `flex-grow` and/or `flex-shrink`.
 
-0. `flex` is used to specify `flex-grow`, `flex-shrink`, and `flex-basis` in one declaration: `flex: 2 1 150px;`.
+1. `flex` is used to specify `flex-grow`, `flex-shrink`, and `flex-basis` in one declaration: `flex: 2 1 150px;`.
 
-0. `flex-wrap` is declared on flex _containers_ and specifies that elements should shift along the cross axis if the flex container is not large enough.
+1. `flex-wrap` is declared on flex _containers_ and specifies that elements should shift along the cross axis if the flex container is not large enough.
 
   - `wrap` — child elements of a flex container will move down to the next line starting from the final item and working towards the first.
 
@@ -262,7 +272,7 @@ All direct child elements of a flex container are _flex items_.
 
   - `wrap-reverse` — the wrapped element is displayed on top of the other elements in the flex container starting from the last and working toward the first (a mirror image of the wrap value).
 
-0. `align-content` is declared on flex containers and is used to space rows along the cross axis (from the top to the bottom).
+1. `align-content` is declared on flex containers and is used to space rows along the cross axis (from the top to the bottom).
 
   - `flex-start` — all rows of elements will be positioned at the top of the parent container with no extra space between.
 
@@ -276,7 +286,7 @@ All direct child elements of a flex container are _flex items_.
 
   - `stretch` — if a minimum height or no height is specified, the rows of elements will stretch to fill the parent container from top to bottom (default value).
 
-0. `flex-direction` is declared on flex containers and is used to specify the major and cross axes.
+1. `flex-direction` is declared on flex containers and is used to specify the major and cross axes.
 
   - `row` — elements will be positioned from left to right across the parent element starting from the top left corner (default).
 
@@ -286,9 +296,9 @@ All direct child elements of a flex container are _flex items_.
 
   - `column-reverse` — elements will be positioned from the bottom to the top of the parent element starting from the bottom left corner.
 
-0. `flex-flow` is declared on flex containers and is used to specify `flex-wrap` and `flex-direction` in one declaration: `flex-flow: column wrap;`.
+1. `flex-flow` is declared on flex containers and is used to specify `flex-wrap` and `flex-direction` in one declaration: `flex-flow: column wrap;`.
 
-0. Flex containers can be nested inside of each other by declaring `display: flex` or `display: inline-flex` for children of flex containers.
+1. Flex containers can be nested inside of each other by declaring `display: flex` or `display: inline-flex` for children of flex containers.
 
 
 # Design and UI Feedback
@@ -349,15 +359,15 @@ Organize each element by importance. Then, apply the most striking colors to the
 - Text can appear in any number of weights, with the `font-weight` property.
 
   1. `400` is the default `font-weight` of most text.
-  2. `700` signifies a bold `font-weight`.
-  3. `300` signifies a light `font-weight`.
+  1. `700` signifies a bold `font-weight`.
+  1. `300` signifies a light `font-weight`.
 
 - Text can appear in italics with the `font-style` property.
 
 - The vertical spacing between lines of text can be modified with the `line-height` property:
 
-  0. A unitless number, such as `1.2`. This number is an absolute value that will compute the line height as a ratio of the font size.
-  0. A number specified by unit, such as `12px`. This number can be any valid CSS unit, such as pixels, percents, ems, or rems.
+  1. A unitless number, such as `1.2`. This number is an absolute value that will compute the line height as a ratio of the font size.
+  1. A number specified by unit, such as `12px`. This number can be any valid CSS unit, such as pixels, percents, ems, or rems.
 
 - _Serif_ fonts have extra details on the ends of each letter. _Sans-Serif_ fonts do not.
 
@@ -390,9 +400,9 @@ Organize each element by importance. Then, apply the most striking colors to the
 
 The following resources provide in-depth advice on pairing fonts:
 
-0. [Typewolf](https://www.typewolf.com/google-fonts)
-0. [Google Font Combinations](https://www.behance.net/gallery/35768979/Typography-Google-Fonts-Combinations)
-0. [Hand-picked Tales from Æsop's Fables with Hand-picked Type from Google Fonts](https://femmebot.github.io/google-type)
+1. [Typewolf](https://typewolf.com/google-fonts)
+1. [Google Font Combinations](https://behance.net/gallery/35768979/Typography-Google-Fonts-Combinations)
+1. [Hand-picked Tales from Æsop's Fables with Hand-picked Type from Google Fonts](https://femmebot.github.io/google-type)
 
 #### UTILIZING FONTS TO CONVEY CONTENT AND TONE
 
@@ -400,9 +410,9 @@ The following resources provide in-depth advice on pairing fonts:
 
 Typography should support at least three levels of hierarchy.
 
-0. The primary level is for the most important content/information
-0. The secondary level is to help organize your design into sections
-0. The tertiary level is the meat of the design
+1. The primary level is for the most important content/information
+1. The secondary level is to help organize your design into sections
+1. The tertiary level is the meat of the design
 
 ###### SCALING
 
@@ -525,11 +535,11 @@ transition: width 750ms ease-in 200ms,
 
 `@media only screen and (max-width: 480px) {}`
 
-  0. `@media` — This keyword begins a media query rule and instructs the CSS compiler on how to parse the rest of the rule.
+  1. `@media` — This keyword begins a media query rule and instructs the CSS compiler on how to parse the rest of the rule.
 
-  0. `only screen` — Indicates what types of devices should use this rule. `screen` is the media type always used for displaying content, no matter the type of device. The `only` keyword is added to indicate that this rule only applies to one media type (`screen`).
+  1. `only screen` — Indicates what types of devices should use this rule. `screen` is the media type always used for displaying content, no matter the type of device. The `only` keyword is added to indicate that this rule only applies to one media type (`screen`).
 
-  0. `and (max-width : 480px)` — This part of the rule is called a _media feature_, and instructs the CSS compiler to apply the CSS styles to devices with a width of 480 pixels or smaller. Media features are the conditions that must be met in order to render the CSS within a media query.
+  1. `and (max-width : 480px)` — This part of the rule is called a _media feature_, and instructs the CSS compiler to apply the CSS styles to devices with a width of 480 pixels or smaller. Media features are the conditions that must be met in order to render the CSS within a media query.
 
 - The `and` operator requires multiple media features to be true at once.
 
@@ -540,9 +550,9 @@ transition: width 750ms ease-in 200ms,
 
 ## Browser Compatibility
 
-0. A website may not look the same in all browsers (or versions of browsers) due to differing user agent stylesheets across browsers.
+1. A website may not look the same in all browsers (or versions of browsers) due to differing user agent stylesheets across browsers.
 
-0. User agent stylesheets can be reset with a CSS reset stylesheet.
+1. User agent stylesheets can be reset with a CSS reset stylesheet.
 
   - Create a reset.css file.
 
@@ -601,32 +611,32 @@ transition: width 750ms ease-in 200ms,
     }
     ```
 
-0. A CSS reset stylesheet can be linked in an HTML file.
+1. A CSS reset stylesheet can be linked in an HTML file.
 
   - Link to reset.css in the HTML file (make sure reset.css is loaded first before other CSS files, otherwise reset.css may reset your custom rules by accident).
   - `<link href="reset.css" type="text/css" rel="stylesheet">`
 
-0. Resources like "[Can I use](http://caniuse.com/)" allow you to check if a CSS feature is supported across multiple browsers.
+1. Resources like "[Can I use](http://caniuse.com)" allow you to check if a CSS feature is supported across multiple browsers.
 
-0. [Vendor prefixes](https://developer.mozilla.org/en-US/docs/Glossary/Vendor_Prefix) increase the browser compatibility of CSS features. This is because they indicate to browsers how the rule should be specifically implemented.
+1. [Vendor prefixes](https://developer.mozilla.org/en-US/docs/Glossary/Vendor_Prefix) increase the browser compatibility of CSS features. This is because they indicate to browsers how the rule should be specifically implemented.
 
-0. Polyfills are libraries that increase the browser compatibility of a website. They allow developers to write alternative CSS rules based on whether or not a browser supports a certain feature.
+1. Polyfills are libraries that increase the browser compatibility of a website. They allow developers to write alternative CSS rules based on whether or not a browser supports a certain feature.
 
 
 # Icons, Assets and Accessibility
 
 ## Font Awesome
 
-0. The Font Awesome library can be linked to an HTML document from a remote CDN or a local CSS file.
+1. The Font Awesome library can be linked to an HTML document from a remote CDN or a local CSS file.
 
-0. Font Awesome icons are added to a website by setting an `<i>` tag's classes to `fa` and `fa-icon-name`, where `fa-icon-name` refers to the icon-specific class name.
+1. Font Awesome icons are added to a website by setting an `<i>` tag's classes to `fa` and `fa-icon-name`, where `fa-icon-name` refers to the icon-specific class name.
 
-0. Font Awesome icons can be resized using `fa-lg`, `fa-2x`, `fa-3x`, `fa-4x`, or `fa-5x`.
+1. Font Awesome icons can be resized using `fa-lg`, `fa-2x`, `fa-3x`, `fa-4x`, or `fa-5x`.
 
 Here are a few best practices to help you anticipate and plan for user misunderstanding:
 
-  0. Research the icon in question. When in doubt, check to see if the icon shows up on other popular sites.
-  0. Use a word or two next to the icon for additional context.
+  1. Research the icon in question. When in doubt, check to see if the icon shows up on other popular sites.
+  1. Use a word or two next to the icon for additional context.
 
 
 ## Managing Assets and Icons
@@ -635,11 +645,11 @@ _favicon_ - a small image displayed in the tab or browser bar containing the nam
 
 Three types of image files:
 
-0. JPEG - a highly compressible file type that is preferred for images with significant detail
+1. JPEG - a highly compressible file type that is preferred for images with significant detail
 
-0. PNG - a file type that is lossless (meaning that full quality is maintained) - generally preferred for images with less detail such as logos
+1. PNG - a file type that is lossless (meaning that full quality is maintained) - generally preferred for images with less detail such as logos
 
-0. SVG - useful for high resolution screens, scalable vector graphics (SVG) will change size (scale) for various screen sizes; SVGs also contain roughly 50% less data than their JPEG or PNG equivalents allowing web pages to load more quickly; they are becoming widely used for simple images such as icons and logos
+1. SVG - useful for high resolution screens, scalable vector graphics (SVG) will change size (scale) for various screen sizes; SVGs also contain roughly 50% less data than their JPEG or PNG equivalents allowing web pages to load more quickly; they are becoming widely used for simple images such as icons and logos
 
 ### Making favicons
 
@@ -662,14 +672,14 @@ To convert an image to SVG, you can use an online conversion tool such as [onlin
 
 Using ARIA roles and properties, `alt` attributes, and semantic elements in your HTML is a simple way to make your website accessible to visually-impaired Internet users.
 
-0. Using semantic HTML elements whenever possible (such as `<header>` instead of `<div id="header">`) will allow screen reader users to navigate your website more efficiently.
+1. Using semantic HTML elements whenever possible (such as `<header>` instead of `<div id="header">`) will allow screen reader users to navigate your website more efficiently.
 
-0. The `role` attribute is used to communicate information about the role of specific elements.
+1. The `role` attribute is used to communicate information about the role of specific elements.
 
   - [list of acceptable ARIA roles](https://www.w3.org/TR/html-aria/#allowed-aria-roles-states-and-properties)
 
-0. `role="presentation"` allows a screen reader to skip markup elements that don't directly contain useful information.
+1. `role="presentation"` allows a screen reader to skip markup elements that don't directly contain useful information.
 
-0. `aria-label` and other ARIA properties can be used to help users perceive information that is communicated visually but not through text.
+1. `aria-label` and other ARIA properties can be used to help users perceive information that is communicated visually but not through text.
 
-0. The `alt` attribute should be added to every image element (and all other elements that support it) instead of `aria-label`. When used, its value should be a useful description of the image.
+1. The `alt` attribute should be added to every image element (and all other elements that support it) instead of `aria-label`. When used, its value should be a useful description of the image.

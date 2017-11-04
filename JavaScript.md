@@ -57,10 +57,10 @@ JavaScript, a popular programming language used to make websites interactive, is
   }
   ```
 
-  0. Within the `for` loop's parentheses, the _start condition_ is `var i = 0`, which means the loop starts counting at `0`.
-  0. The _stop condition_ is `i < 3`, which means the loop runs as long as `i` is less than `3`. When `i` is equal to `3`, the loop will stop.
-  0. The _iterator_ is `i++`. This means that `i` increases by one after each loop — `i++` is equivalent to writing `i = i + 1;`.
-  0. Finally, the code block inside the curly braces executes until the loop stops.
+  1. Within the `for` loop's parentheses, the _start condition_ is `var i = 0`, which means the loop starts counting at `0`.
+  1. The _stop condition_ is `i < 3`, which means the loop runs as long as `i` is less than `3`. When `i` is equal to `3`, the loop will stop.
+  1. The _iterator_ is `i++`. This means that `i` increases by one after each loop — `i++` is equivalent to writing `i = i + 1;`.
+  1. Finally, the code block inside the curly braces executes until the loop stops.
 
 - `while` loops execute as long as a certain condition is met.
 
