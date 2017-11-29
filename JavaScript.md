@@ -2,14 +2,18 @@
 
 JavaScript, a popular programming language used to make websites interactive, is one of the most popular languages in the world and is used on many websites. It is used on the web to create dynamic behavior, manage data, and automate repetitive tasks.
 
+
 ## Table of Contents
 
 - [Introduction to JavaScript](#introduction-to-javascript)
+
 
 ### Resources
 
 - [MDN JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [W3Schools](https://w3schools.com/js)
+- [Eloquent JavaScript](http://eloquentjavascript.net)
+- [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS)
 
 ---
 

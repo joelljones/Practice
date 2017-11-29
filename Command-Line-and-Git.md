@@ -2,10 +2,12 @@
 
 summary...
 
+
 ## Table of Contents
 
 - [Command Line Navigation](#command-line-navigation)
 - [Git Workflow](#git-workflow)
+
 
 ### Resources
 

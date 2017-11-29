@@ -2,9 +2,11 @@
 
 jQuery, a popular framework for using JavaScript and selectors to make interactive websites. It is a JavaScript library that makes it easy to add dynamic behavior to HTML elements.
 
+
 ## Table of Contents
 
 - [Introduction to jQuery](#introduction-to-jquery)
+
 
 ### Resources
 

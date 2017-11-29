@@ -12,6 +12,7 @@ The CSS specification describes a priority scheme to determine which style rules
 
 The CSS specifications are maintained by the World Wide Web Consortium (W3C).
 
+
 ## Table of Contents
 
 - [CSS Setup](#css-setup)
@@ -36,6 +37,7 @@ The CSS specifications are maintained by the World Wide Web Consortium (W3C).
   - [Font Awesome](#font-awesome)
   - [Managing Assets and Icons](#managing-assets-and-icons)
   - [Accessibility and ARIA](#accessibility-and-aria)
+
 
 ### Resources
 

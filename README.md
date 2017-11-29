@@ -2,18 +2,20 @@
 
 A collection of resources & notes for learning web development.
 
+
 ## Table of Contents
 
-- [Introduction to Computer Science](Intro-to-CS.md)
-- [Command Line and Git](Command-Line-and-Git.md)
-- [HTML](HTML.md)
-- [CSS](CSS.md)
-  - [Bootstrap](Bootstrap.md)
-- [JavaScript](JavaScript.md)
-  - [jQuery](jQuery.md)
-  - [AngularJS](AngularJS.md)
-  - [React](React.md)
-- [Interview Questions](InterviewQuestions.md)
+- [Introduction to Computer Science](intro-to-cs.md)
+- [Command Line and Git](command-line-and-git.md)
+- [HTML](html.md)
+- [CSS](css.md)
+  - [Bootstrap](bootstrap.md)
+- [JavaScript](javascript.md)
+  - [jQuery](jquery.md)
+  - [AngularJS](angularjs.md)
+  - [React](react.md)
+- [Interview Questions](interview-questions.md)
+
 
 ### Resources
 
@@ -22,6 +24,6 @@ A collection of resources & notes for learning web development.
 - [Udemy](https://udemy.com)
 - [Udacity](https://udacity.com)
 - [Treehouse](https://teamtreehouse.com)
-- [MDN](https://developer.mozilla.org)
+- [Mozilla Developer Network (MDN)](https://developer.mozilla.org)
 - [W3Schools](https://w3schools.com)
 - [Stack Overflow](https://stackoverflow.com)
