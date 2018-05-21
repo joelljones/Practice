@@ -92,7 +92,7 @@ _Semantic_ tags are used to describe the content that they surround, which helps
 
 3. To add data to a row, you can use the `<td>` element.
 
-4. Table headings clarify the meaning of data. Headings are added with the `<th>`` element.
+4. Table headings clarify the meaning of data. Headings are added with the `<th>` element.
 
 5. Table data can span columns using the `colspan` attribute.
 

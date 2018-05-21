@@ -13,7 +13,7 @@ The _command line_ is a text interface for the computer's operating system. To
 
 ### Resources
 
-- [Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)
+- [Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell))
 
 ---
 
