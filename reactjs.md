@@ -2,7 +2,6 @@
 
 summary...
 
-
 ## Table of Contents
 
 - [Intro to JSX](#intro-to-jsx)
@@ -12,7 +11,6 @@ summary...
 - [Components Render Other Components](#components-render-other-components)
 - [this.props](#this.props)
 - [this.state](#this.state)
-
 
 ### Resources
 
@@ -24,9 +22,7 @@ summary...
 
 
 
-
 # Advanced JSX
-
 
 
 
@@ -34,9 +30,7 @@ summary...
 
 
 
-
 # Components and Advanced JSX
-
 
 
 
@@ -44,9 +38,7 @@ summary...
 
 
 
-
 # this.props
-
 
 
 

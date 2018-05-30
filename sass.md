@@ -2,12 +2,9 @@
 
 summary...
 
-
 ## Table of Contents
 
 - []()
-
-
 
 ### Resources
 

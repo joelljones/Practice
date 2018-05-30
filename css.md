@@ -12,7 +12,6 @@ The CSS specification describes a priority scheme to determine which style rules
 
 The CSS specifications are maintained by the World Wide Web Consortium (W3C).
 
-
 ## Table of Contents
 
 - [CSS Setup](#css-setup)
@@ -26,17 +25,12 @@ The CSS specifications are maintained by the World Wide Web Consortium (W3C).
 - [Pseudo-classes](#pseudo-classes)
 - [Animations - Transitions](#animations-transitions)
 
-
 ### Resources
 
 - [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [W3Schools](https://w3schools.com/css)
 - [W3C](https://www.w3.org/Style/CSS)
 - [Chrome DevTools](https://developer.chrome.com/devtools)
-- [Border styles](https://developer.mozilla.org/en-US/docs/Web/CSS/border-style#Values)
-- [Inline elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements)
-- [Block level elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements)
-- [Colors](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value)
 - [Reference of web safe fonts](https://cssfontstack.com)
 - [Paletton](http://paletton.com)
 - [Adobe Color CC](http://color.adobe.com)
@@ -49,10 +43,6 @@ The CSS specifications are maintained by the World Wide Web Consortium (W3C).
 - [Typewolf](https://typewolf.com/google-fonts)
 - [Google Font Combinations](https://behance.net/gallery/35768979/Typography-Google-Fonts-Combinations)
 - [Hand-picked Tales from Æsop's Fables with Hand-picked Type from Google Fonts](https://femmebot.github.io/google-type)
-- [Animated properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties)
-- [Transition timing function](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function)
-- [Transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
-
 
 ---
 
@@ -64,20 +54,19 @@ The CSS specifications are maintained by the World Wide Web Consortium (W3C).
 
 3. The `<style>` element allows you to write CSS code within the `<head>` element of an HTML file.
 
-4. To style an HTML element, you can add the style attribute directly to the opening tag using _inline styles_:  
+4. To style an HTML element, you can add the style attribute directly to the opening tag using _inline styles_:
 
-  `<p style="color: red;">This is an inline style</p>`
+    `<p style="color: red;">This is an inline style</p>`
 
 5. A CSS stylesheet can be linked to an HTML file using the `<link>` element, which requires three attributes:
 
-  - `href` - set equal to the path of the CSS file
-  - `type` - set equal to `text/css`
-  - `rel` - set equal to `stylesheet`
+    - `href` - set equal to the path of the CSS file
+    - `type` - set equal to `text/css`
+    - `rel` - set equal to `stylesheet`
 
-  `<link href="style.css" type="text/css" rel="stylesheet">`
+    `<link href="style.css" type="text/css" rel="stylesheet">`
 
 6. Comments are written in CSS using the following syntax: `/* comment */`.
-
 
 # CSS Selectors
 
@@ -95,11 +84,11 @@ The CSS specifications are maintained by the World Wide Web Consortium (W3C).
 
 - Multiple selectors can be chained together to select an element. This raises the specificity, but can be necessary.
 
-  `h1.special {`
+  `h1.special {}`
 
 - Nested elements can be selected by separating selectors with a space:
 
-  `.main p {`
+  `.main p {}`
 
 - The `!important` flag will override any style, however it should almost never be used, as it is extremely difficult to override.
 
@@ -107,8 +96,7 @@ The CSS specifications are maintained by the World Wide Web Consortium (W3C).
 
 - Multiple unrelated selectors can receive the same styles by separating the selector names with commas:
 
-  `h1, .menu {`
-
+  `h1, .menu {}`
 
 # CSS Visual Rules
 
@@ -135,7 +123,6 @@ The CSS specifications are maintained by the World Wide Web Consortium (W3C).
 
 - CSS can also set the background of an element to an image with the `background-image` property.
 
-
 # The Box Model
 
 1. The box model comprises a set of properties used to create space around and between HTML elements.
@@ -158,7 +145,6 @@ The CSS specifications are maintained by the World Wide Web Consortium (W3C).
 
 10. The `visibility` property can hide or show elements.
 
-
 # Changing the Box Model
 
 1. In the default box model, box dimensions are affected by border thickness and padding.
@@ -171,7 +157,6 @@ The CSS specifications are maintained by the World Wide Web Consortium (W3C).
 
 5. The `border-box` model is not affected by border thickness or padding.
 
-
 # CSS Display and Positioning
 
 1. The default positioning of elements is based on the _flow_ of the HTML file.
@@ -180,14 +165,14 @@ The CSS specifications are maintained by the World Wide Web Consortium (W3C).
 
 3. `display: inline` elements appear next to each other on the same line.
 
-  - The default display for some tags, such as `<em>`, `<strong>`, and `<a>`.
-  - take up as little space as possible, and they cannot have manually-adjusted `width` or `height`.
+    - The default display for some tags, such as `<em>`, `<strong>`, and `<a>`.
+    - take up as little space as possible, and they cannot have manually-adjusted `width` or `height`.
 
 4. You can position elements to be displayed on their own line using `display: block`.
 
-  - Elements that are block-level by default include all levels of heading elements (`<h1>` through `<h6>`), `<p>`, `<div>` and `<footer>`.
+    - Elements that are block-level by default include all levels of heading elements (`<h1>` through `<h6>`), `<p>`, `<div>` and `<footer>`.
 
-  - take up the width of their container and can have manually-adjusted `height`s.
+    - take up the width of their container and can have manually-adjusted `height`s.
 
 5. `display: inline-block` elements are on the same line as each other and their size can be set.
 
@@ -206,7 +191,6 @@ The CSS specifications are maintained by the World Wide Web Consortium (W3C).
 12. The `float` property can move elements as far left or as far right as possible on a web page.
 
 13. You can clear an element's left or right side (or both) using the `clear` property.
-
 
 # CSS Color
 
@@ -233,7 +217,6 @@ There are four ways to represent color in CSS:
   - Hue ranges from 0 to 360 and saturation and lightness are both represented as percentages like this: `hsl(200, 20%, 50%)`.
 
 - You can add opacity to color in RGB and HSL by adding a fourth value, `a`, which is represented as a percentage.
-
 
 # CSS - Typography
 
@@ -266,7 +249,6 @@ There are four ways to represent color in CSS:
 
 - The `text-align` property changes where text horizontally on a page.
 
-
 # Pseudo-classes
 
 - _Pseudo-classes_ style elements based on user interactions and context within a web document.
@@ -277,7 +259,6 @@ There are four ways to represent color in CSS:
 
   - `:nth-child(2n + 3)` selects every second, starting with the third.
   - `:nth-child(3n + 4)` selects every third, starting with the fourth.
-
 
 # Animations - Transitions
 
@@ -299,18 +280,18 @@ CSS Transitions have 4 components:
 
 A simple transition can be described with a property and a duration, which can be written like this:
 
-```
+```css
 transition-property: color;
 transition-duration: 1s;
 ```
 
 Many properties' _state changes_ can be transitioned, including color, background color, font size, width, and height. `all` is also a valid transition property that causes every changing property to transition.
 
-  - `transition: all 1.5s linear 0.5s;`
+- `transition: all 1.5s linear 0.5s;`
 
 The shorthand property `transition` can be used to describe all four components of a transition at once. By using the comma (`,`) operator, many transitions can be described in one CSS rule.
 
-```
+```css
 transition: width 750ms ease-in 200ms,
             left 500ms ease-out 450ms;
 ```

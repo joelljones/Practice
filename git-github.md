@@ -4,14 +4,12 @@ Git is the industry-standard version control system for web developers.
 
 _GitHub_ is a service for hosting remote repositories on the web.
 
-
 ## Table of Contents
 
 - [Basic Git Workflow](#basic-git-workflow)
 - [How to Backtrack](#how-to-backtrack)
 - [Git Branching](#git-branching)
 - [Git Teamwork](#git-teamwork)
-
 
 ### Resources
 
@@ -33,7 +31,6 @@ _GitHub_ is a service for hosting remote repositories on the web.
   - `git commit -m <message>` permanently stores file changes from the staging area in the repository
   - `git log` shows a list of all previous commits
 
-
 # How to Backtrack
 
 - `git checkout HEAD filename`: Discards changes in the working directory.
@@ -41,7 +38,6 @@ _GitHub_ is a service for hosting remote repositories on the web.
 - `git reset HEAD filename`: Unstages file changes in the staging area.
 
 - `git reset commit_SHA`: Resets to a previous commit in your commit history.
-
 
 # Git Branching
 
@@ -54,7 +50,6 @@ _GitHub_ is a service for hosting remote repositories on the web.
   - `git checkout branch_name`: Used to switch from one branch to another.
   - `git merge branch_name`: Used to join file changes from one branch to another.
   - `git branch -d branch_name`: Deletes the branch specified.
-
 
 # Git Teamwork
 

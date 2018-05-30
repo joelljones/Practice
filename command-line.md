@@ -2,14 +2,12 @@
 
 The _command line_ is a text interface for the computer's operating system. To access the command line, we use the terminal.
 
-
 ## Table of Contents
 
 - [Navigation](#navigation)
 - [Manipulation](#manipulation)
 - [Redirection](#redirection)
 - [Environment](#environment)
-
 
 ### Resources
 
@@ -31,7 +29,6 @@ The _command line_ is a text interface for the computer's operating system. To
 
 - The `clear` command clears the terminal window of any text, including previous commands and output.
 
-
 # Manipulation
 
 - Options modify the behavior of commands:
@@ -50,7 +47,6 @@ The _command line_ is a text interface for the computer's operating system. To
 
 - Wildcards are useful for selecting groups of files and directories
 
-
 # Redirection
 
 - _Redirection_ reroutes standard input, standard output, and standard error.
@@ -68,7 +64,6 @@ The _command line_ is a text interface for the computer's operating system. To
   - `uniq`: filters duplicate, adjacent lines of text.
   - `grep`: searches for a text pattern and outputs it.
   - `sed`: searches for a text pattern, modifies it, and outputs it.
-
 
 # Environment
 

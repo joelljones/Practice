@@ -2,20 +2,17 @@
 
 __Hypertext Markup Language (HTML)__ is the standard markup language for creating web pages and web applications. Web browsers receive HTML documents from a web server or from local storage and render them into multimedia web pages. HTML describes the structure of a web page semantically.
 
-
 ## Table of Contents
 
 - [Introduction to HTML](#introduction-to-html)
 - [HTML Tags](#html-tags)
 - [Tables](#tables)
 
-
 ### Resources
 
 - [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [W3Schools](https://w3schools.com/html)
 - [World Wide Web Consortium or W3C](https://w3.org/Consortium)
-- [HTML tag/element reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 
 ---
 
@@ -47,7 +44,6 @@ __Hypertext Markup Language (HTML)__ is the standard markup language for creatin
 
 13. Code for visible HTML content is placed inside of the `<body>` element.
 
-
 # HTML Tags
 
 1. Headings and sub-headings, `<h1>` to `<h6>` tags, are used to enlarge text.
@@ -60,29 +56,29 @@ __Hypertext Markup Language (HTML)__ is the standard markup language for creatin
 
 5. Ordered lists (`<ol>`) are numbered and unordered lists (`<ul>`) are bulleted.
 
-  - Individual list items must be added to the unordered list using the list item `<li>` tag, to describe an item in a list.
+    - Individual list items must be added to the unordered list using the list item `<li>` tag, to describe an item in a list.
 
 6. Images (`<img>`) and videos (`<video>`) can be added by linking to an existing source:
 
-  `<img src="image-location.com" />`  
+    `<img src="image-location.com" />`
 
-  `<video src="myVideo.mp4" width="320" height="240" controls> Video not supported </video>`
+    `<video src="myVideo.mp4" width="320" height="240" controls> Video not supported </video>`
 
 7. Anchor tags (`<a>`) are used to link to internal pages, external pages or content on the same page(see #8):
 
-  - internal/relative: `<a href="./contact.html">Contact</a>`  
-  - external: `<a href="https://www.wikipedia.org/">This Is A Link To Wikipedia</a>`  
-  - new page: `<a href="https://www.wikipedia.org/" target="_blank">This Is A Link To Wikipedia</a>`
+    - internal/relative: `<a href="./contact.html">Contact</a>`
+    - external: `<a href="https://www.wikipedia.org/">This Is A Link To Wikipedia</a>`
+    - new page: `<a href="https://www.wikipedia.org/" target="_blank">This Is A Link To Wikipedia</a>`
 
 8. You can create sections on a webpage and jump to them using `<a>` tags and adding ids to the elements you wish to jump to:
 
-  - same page: `<a href="#top">Top</a>`
+    - same page: `<a href="#top">Top</a>`
 
 9. The `nav` element contains links to internal pages or content.
 
-10. _Non-semantic_ tags means that they do not describe the content that is inside of them: `<div>`  
-_Semantic_ tags are used to describe the content that they surround, which helps us modify and style our content later: `<nav>`
+10. _Non-semantic_ tags means that they do not describe the content that is inside of them: `<div>`
 
+11. _Semantic_ tags are used to describe the content that they surround, which helps us modify and style our content later: `<nav>`
 
 # Tables
 

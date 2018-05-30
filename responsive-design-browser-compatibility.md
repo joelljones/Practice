@@ -6,12 +6,8 @@
 - [Media Queries](#media-queries)
 - [Browser Compatibility](#browser-compatibility)
 
-
 ### Resources
 
-- [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS)
-- [W3Schools](https://w3schools.com/css)
-- [W3C](https://www.w3.org/Style/CSS)
 - [CSS Reset](http://meyerweb.com/eric/tools/css/reset)
 - [Can I use](http://caniuse.com)
 - [Modernizr](https://modernizr.com)
@@ -54,7 +50,6 @@
 
 - A background image of an HTML element will scale proportionally when its `background-size` property is set to `cover`.
 
-
 # Media Queries
 
 - When a website responds to the size of the screen it's viewed on, it’s called a _responsive_ website.
@@ -67,17 +62,17 @@
 
 `@media only screen and (max-width: 480px) {}`
 
-  1. `@media` — This keyword begins a media query rule and instructs the CSS compiler on how to parse the rest of the rule.
+1. `@media` — This keyword begins a media query rule and instructs the CSS compiler on how to parse the rest of the rule.
 
-  2. `only screen` — Indicates what types of devices should use this rule. `screen` is the media type always used for displaying content, no matter the type of device. The `only` keyword is added to indicate that this rule only applies to one media type (`screen`).
+2. `only screen` — Indicates what types of devices should use this rule. `screen` is the media type always used for displaying content, no matter the type of device. The `only` keyword is added to indicate that this rule only applies to one media type (`screen`).
 
-  3. `and (max-width : 480px)` — This part of the rule is called a _media feature_, and instructs the CSS compiler to apply the CSS styles to devices with a width of 480 pixels or smaller. Media features are the conditions that must be met in order to render the CSS within a media query.
+3. `and (max-width : 480px)` — This part of the rule is called a _media feature_, and instructs the CSS compiler to apply the CSS styles to devices with a width of 480 pixels or smaller. Media features are the conditions that must be met in order to render the CSS within a media query.
 
-- The `and` operator requires multiple media features to be true at once.
+    - The `and` operator requires multiple media features to be true at once.
 
-- A comma separated list of media features only requires one media feature to be true for the code within to be applied.
+    - A comma separated list of media features only requires one media feature to be true for the code within to be applied.
 
-- The best practice for identifying where media queries should be set is by resizing the browser to determine where the content naturally breaks. Natural breakpoints are found by resizing the browser.
+    - The best practice for identifying where media queries should be set is by resizing the browser to determine where the content naturally breaks. Natural breakpoints are found by resizing the browser.
 
 # Browser Compatibility
 
@@ -85,13 +80,13 @@
 
 2. User agent stylesheets can be reset with a CSS reset stylesheet.
 
-  - Create a reset.css file.
+    - Create a reset.css file.
 
-  - Copy and paste CSS reset rules into the reset.css file.
+    - Copy and paste CSS reset rules into the reset.css file.
 
-  - A popular CSS reset can be found [here](http://meyerweb.com/eric/tools/css/reset/).
+    - A popular CSS reset can be found [here](http://meyerweb.com/eric/tools/css/reset/).
 
-    ```
+    ```css
     /* http://meyerweb.com/eric/tools/css/reset/
        v2.0 | 20110126
        License: none (public domain)
@@ -144,8 +139,8 @@
 
 3. A CSS reset stylesheet can be linked in an HTML file.
 
-  - Link to reset.css in the HTML file (make sure reset.css is loaded first before other CSS files, otherwise reset.css may reset your custom rules by accident).
-  - `<link href="reset.css" type="text/css" rel="stylesheet">`
+    - Link to reset.css in the HTML file (make sure reset.css is loaded first before other CSS files, otherwise reset.css may reset your custom rules by accident).
+    - `<link href="reset.css" type="text/css" rel="stylesheet">`
 
 4. Resources like "[Can I use](http://caniuse.com)" allow you to check if a CSS feature is supported across multiple browsers.
 

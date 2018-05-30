@@ -2,7 +2,6 @@
 
 jQuery, a popular framework for using JavaScript and selectors to make interactive websites. It is a JavaScript library that makes it easy to add dynamic behavior to HTML elements.
 
-
 ## Table of Contents
 
 - [Introduction to jQuery](#introduction-to-jquery)
@@ -12,27 +11,24 @@ jQuery, a popular framework for using JavaScript and selectors to make interacti
 - [Style Methods](#style-methods)
 - [Traversing the DOM](#traversing-the-dom)
 
-
 ### Resources
 
 - [jQuery](https://jquery.com)
 - [GitHub](https://github.com/jquery/jquery)
 - [jQuery api](https://api.jquery.com)
 - [jQuery alternative](http://jqapi.com)
+- [MDN](https://developer.mozilla.org/en-US/docs/Glossary/jQuery)
 - [W3Schools](https://w3schools.com/jquery)
 
 ---
 
 # Introduction to jQuery
 
-https://api.jquery.com  
-http://jqapi.com
-
 jQuery, a popular framework for using JavaScript and selectors to make interactive websites. It is a JavaScript library that makes it easy to add dynamic behavior to HTML elements.
 
 - You can include jQuery in a project by using a local copy of the source code or an external link to the source code.
 
-  ```JavaScript
+  ```js
   <script
     src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   ```
@@ -41,7 +37,7 @@ jQuery, a popular framework for using JavaScript and selectors to make interacti
 
 - The `$(document).ready()` call is necessary to begin writing jQuery.
 
-  ```JavaScript
+  ```js
   $(document).ready(function() {
 
   });
@@ -67,10 +63,9 @@ jQuery, a popular framework for using JavaScript and selectors to make interacti
 
 - The [jQuery Plugin Registry](https://plugins.jquery.com) has a list of all available plugins.
 
-
 # jQuery Setup
 
-```JavaScript
+```js
 $(function() {
 
   $('.someClass').on('click', () => {
@@ -82,7 +77,7 @@ $(function() {
 
 OR
 
-```JavaScript
+```js
 $(document).ready(() => {
 
   $('.someClass').on('click', () => {
@@ -94,7 +89,7 @@ $(document).ready(() => {
 
 OR
 
-```JavaScript
+```js
 $(document).ready(() => {
 
   const $jQueryObject = $('.someClass');
@@ -105,7 +100,6 @@ $(document).ready(() => {
 
 });
 ```
-
 
 # jQuery Effects
 
@@ -127,7 +121,6 @@ These methods make elements slide up or down into place over a given period of t
 - `.slideDown()`
 - `.slideToggle()`
 
-
 # Mouse Events
 
 - Event handlers are comprised of an event listener and a callback function. An event listener specifies the type of event that will be detected. The callback function executes when the event happens. Everything together is the event handler.
@@ -137,7 +130,6 @@ These methods make elements slide up or down into place over a given period of t
 - The events listened for included: `'click'`, `'mouseenter'`, and `'mouseleave'`.
 
 - `event.currentTarget` refer to the individual element that an event occurred on.
-
 
 # Style Methods
 
@@ -150,7 +142,6 @@ These methods make elements slide up or down into place over a given period of t
 - The `.addClass()` will add a CSS class to an element, and the `.removeClass()` method will remove a CSS class.
 
 - The `.toggleClass()` method will toggle a class on or off an element.
-
 
 # Traversing the DOM
 

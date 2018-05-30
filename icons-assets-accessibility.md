@@ -6,12 +6,8 @@
 - [Managing Assets and Icons](#managing-assets-and-icons)
 - [Accessibility and ARIA](#accessibility-and-aria)
 
-
 ### Resources
 
-- [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS)
-- [W3Schools](https://w3schools.com/css)
-- [W3C](https://www.w3.org/Style/CSS)
 - [Font Awesome](http://fontawesome.io)
 - [Font Awesome cheat sheet](http://fontawesome.io/cheatsheet)
 - [Favicon-Generator](http://favicon-generator.org)
@@ -19,7 +15,6 @@
 - [Online-convert](http://image.online-convert.com/convert-to-svg)
 - [Web Accessibility Initiative](https://en.wikipedia.org/wiki/Web_Accessibility_Initiative)
 - [ARIA](https://en.wikipedia.org/wiki/WAI-ARIA)
-- [Semantic HTML elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 - [acceptable ARIA roles](https://w3.org/TR/html-aria/#allowed-aria-roles-states-and-properties)
 - [ARIA presentation role](https://w3c.github.io/using-aria/#presentation)
 - [ARIA properties](https://w3.org/TR/wai-aria/states_and_properties)
@@ -38,7 +33,6 @@ Here are a few best practices to help you anticipate and plan for user misunders
 
   1. Research the icon in question. When in doubt, check to see if the icon shows up on other popular sites.
   2. Use a word or two next to the icon for additional context.
-
 
 # Managing Assets and Icons
 
@@ -68,7 +62,6 @@ The web standard for JPEG files is 85%.
 
 To convert an image to SVG, you can use an online conversion tool such as [online-convert](http://image.online-convert.com/convert-to-svg).
 
-
 # Accessibility and ARIA
 
 Using ARIA roles and properties, `alt` attributes, and semantic elements in your HTML is a simple way to make your website accessible to visually-impaired Internet users.
@@ -77,7 +70,7 @@ Using ARIA roles and properties, `alt` attributes, and semantic elements in your
 
 2. The `role` attribute is used to communicate information about the role of specific elements.
 
-  - [list of acceptable ARIA roles](https://www.w3.org/TR/html-aria/#allowed-aria-roles-states-and-properties)
+    - [list of acceptable ARIA roles](https://www.w3.org/TR/html-aria/#allowed-aria-roles-states-and-properties)
 
 3. `role="presentation"` allows a screen reader to skip markup elements that don't directly contain useful information.
 

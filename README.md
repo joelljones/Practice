@@ -2,7 +2,6 @@
 
 A collection of notes & resources for learning web development.
 
-
 ## Table of Contents
 
 - [Introduction to Computer Science](intro-cs.md)
@@ -23,13 +22,11 @@ A collection of notes & resources for learning web development.
   - [ReactJS](reactjs.md)
 - [Interview Questions](interview-questions.md)
 
-
 ### Resources
 
 - [Mozilla Developer Network (MDN)](https://developer.mozilla.org)
 - [W3Schools](https://w3schools.com)
 - [Stack Overflow](https://stackoverflow.com)
-
 
 #### Sources
 

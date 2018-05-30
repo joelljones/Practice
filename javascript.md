@@ -2,7 +2,6 @@
 
 JavaScript, a popular programming language used to make websites interactive, is one of the most popular languages in the world and is used on many websites. It is used on the web to create dynamic behavior, manage data, and automate repetitive tasks.
 
-
 ## Table of Contents
 
 - [Introduction to JavaScript](#introduction-to-javascript)
@@ -19,7 +18,6 @@ JavaScript, a popular programming language used to make websites interactive, is
 - [Modules](#modules)
 - [Requests](#requests)
 
-
 ### Resources
 
 - [MDN JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
@@ -30,8 +28,6 @@ JavaScript, a popular programming language used to make websites interactive, is
 ---
 
 # Introduction to JavaScript
-
-https://developer.mozilla.org/en-US/docs/Web/JavaScript
 
 JavaScript, a popular programming language used to make websites interactive, is one of the most popular languages in the world and is used on many websites. It is used on the web to create dynamic behavior, manage data, and automate repetitive tasks.
 
@@ -50,7 +46,6 @@ JavaScript, a popular programming language used to make websites interactive, is
 - You can write single-line comments with `//` and multi-line comments between `/*` and `*/`.
 
 - A semicolon is used to mark the end of a statement.
-
 
 # Variables
 
@@ -79,7 +74,6 @@ JavaScript, a popular programming language used to make websites interactive, is
   - `\'` : ' (single quote)
   - `\n` : newline
   - `\t` : tab
-
 
 # Control Flow
 
@@ -130,13 +124,13 @@ JavaScript, a popular programming language used to make websites interactive, is
   }
   ```
 
-    1. The `switch` keyword initiates the statement and is followed by `( ... )`, which contains the condition that each `case` will compare to.
+  1. The `switch` keyword initiates the statement and is followed by `( ... )`, which contains the condition that each `case` will compare to.
 
-    2. Inside the block, `{ ... }`, there are `cases`. `case` is like the `else if` part of an `if`/`else if`/`else` statement.
+  2. Inside the block, `{ ... }`, there are `cases`. `case` is like the `else if` part of an `if`/`else if`/`else` statement.
 
-    3. The program stops with the `break` keyword. This keyword will prevent the `switch` statement from executing any more of its code. Without adding `break` at the end of each case, the program will execute the code for all matching cases and the default code as well. This behavior is different from `if`/`else` conditional statements which execute only one block of code.
+  3. The program stops with the `break` keyword. This keyword will prevent the `switch` statement from executing any more of its code. Without adding `break` at the end of each case, the program will execute the code for all matching cases and the default code as well. This behavior is different from `if`/`else` conditional statements which execute only one block of code.
 
-    4. At the end of each `switch` statement, there is a `default` condition. If none of the `cases` are true, then this code will run.
+  4. At the end of each `switch` statement, there is a `default` condition. If none of the `cases` are true, then this code will run.
 
 - The ternary operator (`?`) and a colon (`:`) allow us to refactor simple `if`/`else` statements.
 
@@ -144,13 +138,13 @@ JavaScript, a popular programming language used to make websites interactive, is
   isNightTime ? console.log('Turn on the lights!') : console.log('Turn off the lights!');
   ```
 
-    1. `isNightTime ?` — the conditional statement followed by a question mark. This checks if `isNightTime` is truthy.
+  1. `isNightTime ?` — the conditional statement followed by a question mark. This checks if `isNightTime` is truthy.
 
-    2. `console.log ('Turn on the lights!')` — this code will be executed if the condition is truthy.
+  2. `console.log ('Turn on the lights!')` — this code will be executed if the condition is truthy.
 
-    3. `:` — a colon separates the two different blocks of code that can be executed.
+  3. `:` — a colon separates the two different blocks of code that can be executed.
 
-    4. `console.log('Turn off the lights!');` — this code will be executed if the condition is falsy
+  4. `console.log('Turn off the lights!');` — this code will be executed if the condition is falsy
 
 - Comparison operators, including `<`, `>`, `<=`, and `>=` can compare two variables or values.
 
@@ -168,12 +162,11 @@ JavaScript, a popular programming language used to make websites interactive, is
 
 - Three equals symbols (`===`) are used to check if two variables are equal to each other.
 
-
 # Functions
 
 - _Functions_ are blocks of code written to perform a task.
 
-  ```JavaScript
+  ```js
   function functionName() {
     // a set of instructions that will only execute when the function is called
   }
@@ -199,7 +192,7 @@ JavaScript, a popular programming language used to make websites interactive, is
 
   - do not end in a semi-colon.
 
-  ```JavaScript
+  ```js
   function name (parameter) {
     return parameter * parameter;
   }
@@ -213,7 +206,7 @@ JavaScript, a popular programming language used to make websites interactive, is
 
   - end with a semi-colon since they are stored in a variable
 
-  ```JavaScript
+  ```js
   const name = function (parameter) {
     return parameter * parameter;
   };
@@ -221,7 +214,7 @@ JavaScript, a popular programming language used to make websites interactive, is
 
 - _arrow function_ syntax - variable is set equal `=` to a set of parentheses followed by an arrow token `() =>`, indicating the variable stores a function
 
-  ```JavaScript
+  ```js
   const name = (parameter) => {
     return parameter * parameter;
   };
@@ -235,10 +228,9 @@ JavaScript, a popular programming language used to make websites interactive, is
 
   3. A function composed of a sole single-line block does not need brackets.
 
-  ```JavaScript
+  ```js
   const name = parameter => functionBlock;
   ```
-
 
 # Scope
 
@@ -250,10 +242,7 @@ JavaScript, a popular programming language used to make websites interactive, is
 
   - A _block_ refers to the `{}` braces of a function, a loop, or an `if` statement, and serves as an important structural marker for our code.
 
-
 # Arrays
-
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 
 - Arrays are lists and are a way to store data in JavaScript.
 
@@ -273,12 +262,11 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 - Variables that contain arrays can be declared with `let` or `const`. Even when declared with `const`, arrays are still mutable; they can be changed. However, a variable declared with `const` cannot be reassigned.
 
-
 # Loops
 
 - `for` loops allow us to repeat a block of code a known amount of times.
 
-  ```JavaScript
+  ```js
   for (let i = 0; i < myArray.length; i++) {
     console.log(myArray[i]);
   }
@@ -294,7 +282,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 - We can use a `for` loop inside another `for` loop to compare two lists.
 
-  ```JavaScript
+  ```js
   for (let i = 0; i < myArray.length; i++) {
     for (let j = 0; j < yourArray.length; j++) {
       // code to run
@@ -304,7 +292,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 - `while` loops are for looping over a code block an unknown amount of times.
 
-  ```JavaScript
+  ```js
   while (condition) {
     // code block that loops until condition is false
   }
@@ -312,12 +300,11 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 - Infinite loops occur when stop conditions are never met.
 
-  ```JavaScript
+  ```js
   for (let i = 0; i < array.length; i--) {
      // some code
   }
   ```
-
 
 # Iterators
 
@@ -333,14 +320,13 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 - Additional iterator methods such as `.some()`, `.every()`, `.reduce()` perform different functions.
 
-
 # Objects
 
 - Objects store key-value pairs and let us represent real-world things in JavaScript.
 
 - Properties in objects are separated by commas. Key-value pairs are always separated by a colon.
 
-  ```JavaScript
+  ```js
   let restaurant = {
     name: 'Italian Bistro',
     seatingCapacity: 120,
@@ -357,13 +343,13 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 - You can add or edit a property within an object with dot notation.
 
-  ```JavaScript
+  ```js
   restaurant.desserts = ['Homemade Tiramisu', 'Canolli', 'Cheesecake'];
   ```
 
 - A method is a function in an object.
 
-  ```JavaScript
+  ```js
   openRestaurant: () => {
     return 'Unlock the door, flip the open sign. We are open for business!';
   },
@@ -376,7 +362,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 - Getter and setter methods allow you to process data before accessing or setting property values.
 
-  ```JavaScript
+  ```js
   set seatingCapacity(seatingCapacity) {
     if (typeOf newCapacity === 'number') {
       this._seatingCapacity = newCapacity;
@@ -391,14 +377,13 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
   };
   ```
 
-
 # Classes
 
 - _Classes_ are templates for objects.
 
 - Javascript calls a _constructor_ method when we create a new instance of a class.
 
-  ```JavaScript
+  ```js
   class Dog {
     constructor(name) {
       this.name = name;
@@ -413,7 +398,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 - The `super` keyword calls the `constructor()` of a parent class.
 
-  ```JavaScript
+  ```js
   class Cat extends Animal {
     constructor(name, usesLitter) {
       super(name);
@@ -423,7 +408,6 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
   ```
 
 - Static methods are called on the class, but not on instances of the class.
-
 
 # Browser Compatibility and Transpilation
 
@@ -453,31 +437,32 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 ---
 
-$ npm init  
+$ npm init
+
 $ npm install babel-cli -D
 
-  - The `-D` flag instructs npm to add each package to a property called `devDependencies` in __package.json.__
+- The `-D` flag instructs npm to add each package to a property called `devDependencies` in __package.json.__
 
 $ npm install babel-preset-env -D
 
-  - Once you `npm install` packages, you can find the Babel packages and all their dependencies in the __node_modules__ folder.
+- Once you `npm install` packages, you can find the Babel packages and all their dependencies in the __node_modules__ folder.
 
 $ touch .babelrc
 
-  - Open __.babelrc__ and add:
+- Open __.babelrc__ and add:
 
-    ```JavaScript
-    {
-      "presets": ["env"]
-    }
-    ```
+  ```js
+  {
+    "presets": ["env"]
+  }
+  ```
 
 Open __package.json__ and add below the "test" script: `"build": "babel src -d lib"`
 
-  - `babel` — The Babel command call responsible for transpiling code.
-  - `src` — Instructs Babel to transpile all JavaScript code inside the __src__ directory.
-  - `-d` — Instructs Babel to write the transpiled code to a directory.
-  - `lib` — Babel writes the transpiled code to a directory called `lib`.
+- `babel` — The Babel command call responsible for transpiling code.
+- `src` — Instructs Babel to transpile all JavaScript code inside the __src__ directory.
+- `-d` — Instructs Babel to write the transpiled code to a directory.
+- `lib` — Babel writes the transpiled code to a directory called `lib`.
 
 $ npm run build
 
